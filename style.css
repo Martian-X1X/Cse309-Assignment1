@@ -1,0 +1,86 @@
+ body {
+            text-align: center;
+            background: #B9FFCC;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .header h1, .header h2, .header h3 {
+            margin: 5px 0; 
+        }
+        .logo {
+            max-width: 150px;
+            margin: 10px;
+        }
+        .course-info {
+            text-align: left;
+            margin: 20px;
+        }
+        .instructor-info {
+            font-weight: bold;
+        }
+        .course-objectives {
+            margin-top: 20px;
+        }
+
+table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+th {
+            background-color: #f2f2f2;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: red; 
+            background-color: yellow;
+        }
+h2 .high2 {
+            color: white;
+            background-color: black;
+            padding: 5px;
+        }
+h2 .high3 {
+            color: darkred;
+            background-color: lightcyan;
+            padding: 5px;
+        } 
+td .fail {
+    color: white;
+    background-color: red;
+}   
+   
+h2 .high4 {
+    color: darkblue;
+    background-color: burlywood;
+    padding: 5px;
+}
+
+td .week {
+    background-color: ghostwhite;
+}
+
+td .mid
+{
+    background-color: yellow;
+    color: Red;
+
+}
+
+td .final
+{
+    background-color: yellow;
+    color: Red;
+}
+
